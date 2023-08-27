@@ -16,7 +16,7 @@ document.addEventListener("keydown",function(){ //game starts
         levelup(); //level 1 begins
     }
 });
-startbtn.addEventListener("click",function(){ //for mobile devices (max -width 600px)
+startbtn.addEventListener("click",function(){ //for mobile devices 
     if(started==false)
     {
         started=true;
@@ -97,7 +97,7 @@ function reset() // to reset the game
     level=0
     gameSeq=[];
     userSeq=[];
-    if(window.innerWidth<=768) //button would appear on devices with width less than 600px;
+    if(window.innerWidth<=768) //button would appear on devices;
     {
     startbtn.style.display="inline-block";
     }
